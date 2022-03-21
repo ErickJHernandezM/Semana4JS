@@ -1,0 +1,112 @@
+#inicio{
+    width: 500px;
+    height: fit-content;
+    position: relative;
+    padding-left: 900px;
+}
+h3{
+    font-size: x-large;
+}
+#Caracteristicas{
+    border-collapse: collapse;
+    font-size: larger;
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 00px;
+}
+#estadisticas{
+    border-collapse: collapse;
+    font-size: larger;
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+    padding-left: 00px;
+}
+#Habilidades{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    padding-left: 0px;
+    padding-top: 300px;
+}
+#Movimientos{
+    position: absolute;
+    padding-left: 900px;
+    padding-top: 100px;
+}
+table thead {
+        background:#302b63;
+        color:white;
+}
+table{
+    border-collapse: collapse;
+    font-size: larger;
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: 1px solid black;
+}
+tbody{
+    border: blue 5px solid;
+    margin: 15px;
+    padding: 15px;
+}
+td {
+    border: orange 5px solid;
+  }
+body{
+    background-color:brown ;
+    font-size: larger;
+}
+input{
+    font-size: medium;
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+}
+#titulo{
+    text-align: center;
+}
+#pokemon{
+    position: absolute;
+}
+#pokeImg{
+    position: relative;
+    padding-left: 20px;
+    padding-top: 10px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+#pokeName{
+    position: relative;
+}
+button{
+    position: relative;
+    
+}

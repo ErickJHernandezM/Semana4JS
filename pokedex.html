@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="./pokedex.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <h1>Pokedex LaunchX</h1>
+    <section>
+    <div id="inicio">
+      <div id="pokemon"> <img src="./pokemon.png" alt="" height="300px" width="300px"></div>
+        <input type="text" placeholder="Nombre del Pokemón" id="pokeName" name="pokeName"><button onclick="fetchPokemon()">Buscar Pokemón</button><br>
+        <img src="./pokeball.png" alt="Pokemon" id="pokeImg" width="240px" height="200px"><br>
+    </div>
+    <div id="Caracteristicas">
+    <h2>Id<input type="text" id="pokeid" name="pokeid" disabled></h2>
+    <h2>Tipo<input type="text" id="type" name="type" disabled></h2>
+    <h2>Peso<input type="text" id="peso" name="peso" disabled></h3>
+    </div>
+    <div id="Movimientos" name="Movimientos" class="">
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Movimiento</th>
+          </tr>
+        </thead>
+        <tbody id="data2">
+        </tbody>
+      </table>
+    </div>
+    <div  id="Habilidades" name="Habilidades"class="container mt-4 shadow-lg p-3 mb-5 bg-body rounded">
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Habilidad</th>
+          </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+      </table>
+    </div>
+      <div id="estadisticas">
+    <h2 id="titulo">Stats</h2>
+        <h3>HP<input type="text" id="hp" name="hp" disabled></h3>
+        <h3>Ataque<input type="text" id="attack" name="attack" disabled></h3>
+        <h3>Defensa<input type="text" id="defense" name="defense" disabled></h3>
+        <h3>Ataque especial<input type="text" id="special-attack" name="special-attack" disabled></h3>
+        <h3>Defensa especial<input type="text" id="special-defense" name="special-defense" disabled></h3>
+        <h3>Velocidad<input type="text" id="speed" name="speed" disabled></h3>
+    </div>
+</section>
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
